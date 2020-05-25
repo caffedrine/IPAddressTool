@@ -9,23 +9,17 @@
 #include <QRegularExpressionMatch>
 #include <QRegularExpressionMatchIterator>
 
-namespace ipv4util
-{
+namespace ipv4util {
 
 bool IsValidIPv4(QString ip)
 {
     QHostAddress address(ip);
-    if (QAbstractSocket::IPv4Protocol == address.protocol())
-    {
+    if (QAbstractSocket::IPv4Protocol == address.protocol()) {
         return true;
-    }
-    else if (QAbstractSocket::IPv6Protocol == address.protocol())
-    {
+    } else if (QAbstractSocket::IPv6Protocol == address.protocol()) {
         /* IP given is v6 */
         return false;
-    }
-    else
-    {
+    } else {
         return false;
     }
 }
@@ -41,11 +35,9 @@ QStringList GetMatches(QString regexPattern, QString str)
     QRegularExpressionMatchIterator lineMatches = validator.globalMatch(str);
 
     /* Fill list with matches*/
-    while(lineMatches.hasNext())
-    {
+    while (lineMatches.hasNext()) {
         QRegularExpressionMatch match = lineMatches.next();
-        if(match.hasMatch())
-        {
+        if (match.hasMatch()) {
             list.append(match.captured(0));
         }
     }
@@ -61,18 +53,18 @@ QStringList ExtractIPv4Addresses(QString str)
     return GetMatches(pattern, str);
 }
 
-long Dotted2LongIPv4(QString ip)
+quint32 Dotted2LongIPv4(QString ip)
 {
     QHostAddress address(ip);
-    return (long)address.toIPv4Address();
+    return address.toIPv4Address();
 }
 
-QString Long2DottedIPv4(long ip)
+QString Long2DottedIPv4(quint32 ip)
 {
     QHostAddress address(ip);
     return address.toString();
 }
 
-}/* Namespace */
+} /* Namespace */
 
 #endif // UTIL_H

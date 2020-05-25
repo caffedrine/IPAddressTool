@@ -29,7 +29,7 @@ SOURCES += \
 
 HEADERS += \
         mainwindow.h \
-    util.h
+    QUtil.h
 
 FORMS += \
         mainwindow.ui

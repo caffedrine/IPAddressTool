@@ -2,11 +2,14 @@
 <ui version="4.0">
  <class>MainWindow</class>
  <widget class="QMainWindow" name="MainWindow">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
   <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>783</width>
+    <width>781</width>
     <height>752</height>
    </rect>
   </property>
@@ -34,36 +37,7 @@
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;TW Taiwan&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Checked proxy servers list	Server time: Thu, 28 Jun 18 21:50:11 +0300&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Proxy by ip:port	Proxy type	Anonymity	Country	Uptime	Check date&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt; 202.58.108.58:8080	HTTP	NOA	Bangladesh	34% (33) -	28-jun-2018 21:46&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt; 160.119.126.23:31773	HTTPS	HIA	Nigeria	new +	28-jun-2018 21:46&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt; 5.188.218.24:8080	HTTPS	NOA	Russia	62% (162) +	28-jun-2018 21:45&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt; 159.89.204.212:8080	HTTP	NOA	Singapore	100% (54) +	28-jun-2018 21:44&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt; 91.201.68.141:8080	HTTP	NOA	Ukraine	31% (25) +	28-jun-2018 21:43&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt; 180.254.97.1:8080	HTTPS	NOA	Indonesia	86% (6) +	28-jun-2018 21:43&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt; 108.61.199.94:3128	HTTP	NOA	Netherlands	14% (4) -	28-jun-2018 21:41&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt; 200.11.228.86:3128	HTTP	NOA	Venezuela	52% (27) +	28-jun-2018 21:41&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt; 176.101.177.189:8080	HTTPS	NOA	Slovakia	75% (45) +	28-jun-2018 21:41&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt; 94.23.157.1:8080	HTTP	HIA	United Kingdom	29% (143) -	28-jun-2018 21:40&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt; 200.201.29.2:3128	HTTPS	HIA	Brazil	53% (88) -	28-jun-2018 21:39&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt; 177.21.221.132:20183	HTTPS	NOA	Brazil	61% (34) -	28-jun-2018 21:37&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt; 54.36.162.123:10000	HTTPS	HIA	United Kingdom	89% (24) +	28-jun-2018 21:37&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt; 208.67.183.240:80	HTTP	HIA	United States	55% (22) -	28-jun-2018 21:37&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt; 85.173.244.203:53281	HTTPS	HIA	Russia	100% (2) -	28-jun-2018 21:35&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt; 85.114.25.202:8080	HTTPS	HIA	Russia	88% (7) +	28-jun-2018 21:35&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt; 183.91.77.50:8080	HTTPS	NOA	Indonesia	46% (186) -	28-jun-2018 21:34&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt; 81.163.226.34:8080	HTTP	HIA	Russia	new -	28-jun-2018 21:34&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt; 154.119.45.254:53281	HTTPS	HIA	South Africa	76% (57) -	28-jun-2018 21:33&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt; 121.46.95.27:8080	HTTP	HIA	India	26% (9) -	28-jun-2018 21:33&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt; 116.66.197.230:8080	HTTP	NOA	Nepal	66% (44) +	28-jun-2018 21:32&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt; 220.142.227.46:3128	HTTPS	NOA	Taiwan	new +	28-jun-2018 21:32&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt; 186.4.170.190:8080	HTTP	NOA	Ecuador	58% (42) +	28-jun-2018 21:31&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt; 195.34.241.85:8080	HTTPS	NOA	Russia	37% (166) +	28-jun-2018 21:31&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt; 118.127.99.93:53281	HTTP	NOA	Australia	54% (52) +	28-jun-2018 21:31&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt; 80.211.28.56:3128	HTTPS	NOA	Italy	100% (18) +	28-jun-2018 21:31&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Free proxy list © 2008-2018 Full version	&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
    <widget class="QGroupBox" name="groupBox_IP_Conversions">
@@ -115,7 +89,7 @@ p, li { white-space: pre-wrap; }
      </rect>
     </property>
     <property name="title">
-     <string>IP Extractor</string>
+     <string>IP Extractor/Parser</string>
     </property>
     <widget class="QPushButton" name="pushButton_IP_Extractor">
      <property name="geometry">
@@ -144,26 +118,131 @@ p, li { white-space: pre-wrap; }
      </property>
     </widget>
    </widget>
+   <widget class="QGroupBox" name="groupBox_informationGathering">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>230</y>
+      <width>231</width>
+      <height>201</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Information gathering</string>
+    </property>
+    <widget class="QPushButton" name="pushButton_ResolveHostnames">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>211</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Resolve hostnames</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_PingCheck">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>60</y>
+       <width>211</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Ping check/host state</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_CheckPortState">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>90</y>
+       <width>101</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Port check:</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_PortToBeChecked">
+     <property name="geometry">
+      <rect>
+       <x>112</x>
+       <y>90</y>
+       <width>111</width>
+       <height>25</height>
+      </rect>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>600</y>
+      <width>230</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Export list</string>
+    </property>
+    <widget class="QPushButton" name="pushButton_ExportCSV">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>101</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Export as CSV</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_ExportText">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>30</y>
+       <width>101</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Export as text</string>
+     </property>
+    </widget>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menuBar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>783</width>
+     <width>781</width>
      <height>22</height>
     </rect>
    </property>
-  </widget>
-  <widget class="QToolBar" name="mainToolBar">
-   <attribute name="toolBarArea">
-    <enum>TopToolBarArea</enum>
-   </attribute>
-   <attribute name="toolBarBreak">
-    <bool>false</bool>
-   </attribute>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionExit"/>
+   </widget>
+   <addaction name="menuFile"/>
   </widget>
   <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionExit">
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </action>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
  <resources/>
